@@ -32,6 +32,9 @@
       <% end %>
       </tbody>
     </table>
+    <div class="digg_pagination">
+      <%= will_paginate @posts, :container => false %>
+    </div>
   </div>
   <div class="panel-footer"><%= link_to 'New Student', new_student_path,:class => "btn-primary btn-sm"  %>
   </div>
