@@ -1,28 +1,8 @@
-== README
+Rails U:  Rails University
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a sample application used in teaching introductory Ruby on Rails programming, and is loosely modeled after the Microsoft ASP.NET MVC 5 with Entity Framework 6 sample application: Contoso University.
 
-Things you may want to cover:
+The 'class notes' with step by step instructions assumes the student is using a free Rails enviornment courtesty of Nitrous.io, but this code will run in locally installed Rails enviornments as well.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+See the PDF file with class notes for details-
+Quesitons, comments and pull requests are welcome!
