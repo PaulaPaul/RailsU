@@ -10,15 +10,19 @@ class CoursesController < ApplicationController
   # GET /courses/1
   # GET /courses/1.json
   def show
+    # show only the enrollments related to the course being shown
+    @enrollments = Enrollment.where(course_id: @course.id)
   end
 
   # GET /courses/new
   def new
     @course = Course.new
+    @departments = Department.all
   end
 
   # GET /courses/1/edit
   def edit
+    @departments = Department.all
   end
 
   # POST /courses

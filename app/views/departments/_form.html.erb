@@ -24,10 +24,11 @@
     <%= f.date_select :start_date %>
   </div>
   <div class="field">
-    <%= f.label :instructor_id %><br>
-    <%= f.number_field :instructor_id %>
+    <%= f.label "Admin Last Name" %><br>
+    <%= f.collection_select :instructor_id, @instructors, :id, :last_name %>
   </div>
+  <br>
   <div class="actions">
-    <%= f.submit %>
+    <%= f.submit  :class => "btn-primary btn-sm"%>
   </div>
 <% end %>

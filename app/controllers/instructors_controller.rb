@@ -10,6 +10,7 @@ class InstructorsController < ApplicationController
   # GET /instructors/1
   # GET /instructors/1.json
   def show
+    @departments = Department.where(instructor_id: @instructor.id)
   end
 
   # GET /instructors/new
